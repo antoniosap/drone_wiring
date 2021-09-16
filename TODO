@@ -17,3 +17,5 @@ TELEMETRY_OUT @ TX4
 TEST CONNECTIONS:
 - la led strip si illumina ma sembra non capire la configurazione. non ce altro di collegato
 OK test GPS
+OK test PPM_IN
+TEST SUL CAMPO verify behaviour when TX is off or out of range
