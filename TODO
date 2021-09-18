@@ -15,7 +15,40 @@ PPM_IN @ RX2
 TELEMETRY_OUT @ TX4
 
 TEST CONNECTIONS:
-- la led strip si illumina ma sembra non capire la configurazione. non ce altro di collegato
+OK la led strip si illumina ma sembra non capire la configurazione. non ce altro di collegato
 OK test GPS
 OK test PPM_IN
 TEST SUL CAMPO verify behaviour when TX is off or out of range
+OK strip led sul distributore matek 5in1
+- connettere AUX al FC lost&found function
+- test video TX / OSD
+- non funziona l'allarme batteria, ma passa da 4S a 3S
+
+SIGNIFICATO LEDS, PROFILO STATUS:
+
+                REAR
+    BAT                         BAT                         BAT = battery
+    08  09  10  11  12  13  14  15
+
+LEFT                                RIGHT                   NOTES
+  07 ARMED                      ARMED 16                    ARMED = blue
+
+  06                                  17
+
+  05                                  18
+
+  04 THOTTLE                  THOTTLE 19
+
+  03                                  20
+
+  02                                  21
+
+  01                                  22
+
+  00 GPS                          GPS 23                    green = fix
+
+
+  ARMING:
+  attenzione alle condizioni di arming
+  Arming disable flags: CLI MSP GPS
+  Arming disable flags: ANGLE CLI MSP GPS
