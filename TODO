@@ -21,7 +21,7 @@ OK test PPM_IN
 TEST SUL CAMPO verify behaviour when TX is off or out of range
 OK strip led sul distributore matek 5in1
 - connettere AUX al FC lost&found function
-- test video TX / OSD
+OK test video TX / OSD
 - non funziona l'allarme batteria, ma passa da 4S a 3S
 
 SIGNIFICATO LEDS, PROFILO STATUS:
@@ -52,3 +52,9 @@ LEFT                                RIGHT                   NOTES
   attenzione alle condizioni di arming
   Arming disable flags: CLI MSP GPS
   Arming disable flags: ANGLE CLI MSP GPS
+
+  VIDEO:
+  Boscam FPV 5.8G 5.8GHz 40 Channels RC832 Receiver With A/V and Power Cables
+  1.7g 18.5x18.5x5mm Heatsink Heat Sink For FOXEER TM600 FX798T TS5828 Transmitter LittleBee DYS 30A ESC FPV Racing Quadcopter
+  5Pcs/Set TS5828 FPV 5.8G 32CH 600mW Wireless AV Transmitter With Black Antenna TX for Multicopter RP-SMA FeMale
+  HD 700TVL 1/4" SONY CCD PAL or NTSC 2.1mm Mini CCD FPV Camera for RC Quadcopter Drone FPV Photography
