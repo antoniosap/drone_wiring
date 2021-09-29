@@ -23,6 +23,14 @@ OK strip led sul distributore matek 5in1
 - connettere AUX al FC lost&found function
 OK test video TX / OSD
 - non funziona l'allarme batteria, ma passa da 4S a 3S
+OK installare gli 8 ESC
+- per le prove indoor disabilitare l'arming da GPS + inserire la corda (disable GPS)
+OK la valigia ground con una batteria 12 V separata per recuperare la lipo
+- verificare gli ESC blheli protocols
+- inserire 2 partitori 5V -> 3V3 per i sensori corrente ACS712 30A da 66mV / A con 2.5 V a 0A in +/-
+  https://damien.douxchamps.net/elec/resdiv/
+  -30A = 0.52V, +30A = 4.48V  partitore / 0.66  510 ohm / 1k ohm
+
 
 SIGNIFICATO LEDS, PROFILO STATUS:
 
